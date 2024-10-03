@@ -11,7 +11,6 @@ class CuestionarioEneagrama:
         
         # Cargar y configurar la imagen de fondo
         self.bg_image = Image.open(os.path.join(os.getcwd(),"eneagrama3.jpg"))
-        #self.bg_image = Image.open("C:\\Users\\rocio\\Documents\\Otros programas\\cuestionario_eneagrama\\eneagrama3.jpg")  # Ruta de la imagen
         self.bg_image = self.bg_image.resize((800, 600))  # Redimensionar la imagen a un tamaño adecuado
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
         
