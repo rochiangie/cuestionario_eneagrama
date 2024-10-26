@@ -1,2 +1,1 @@
-tkinter
-pillow
+pip install tkinter pillow
