@@ -14,7 +14,7 @@ class CuestionarioEneagrama:
         self.score = [0] * 9  # Array para acumular puntos por eneatipo
 
         # Cargar la imagen de fondo
-        self.bg_image = Image.open("C:\\Users\\rocio\\Documents\\Otros programas\\cuestionario_eneagrama\\cuestionario_eneagrama\\eneagrama3.jpg")
+        self.bg_image = Image.open("eneagrama3.jpg")
         self.bg_image = self.bg_image.resize((600, 400))  # Redimensionar la imagen
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
 
